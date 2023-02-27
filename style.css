@@ -1,0 +1,17 @@
+.log{
+    width: 8%;
+    height: 80px;
+    border-radius: 100%;
+}
+#nav{
+    background-color: green;
+}
+a:hover{
+    transition: 2s;
+    border-bottom: 1px solid black;
+}
+#texte{
+    margin: auto;
+    margin-bottom: 150px;
+    text-align: start;
+}
