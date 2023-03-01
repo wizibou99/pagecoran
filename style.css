@@ -15,3 +15,9 @@ a:hover{
     margin-bottom: 150px;
     text-align: start;
 }
+.dot{
+    height: 400px;
+}
+.bac{
+    background-color: gray;
+}

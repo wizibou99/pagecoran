@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -17,16 +20,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav  gap-5 ms-auto" id="">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">ACCUEIL</a>
+                <a class="nav-link text-light" aria-current="page" href="#">ACCUEIL</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Bibliothèque</a>
+                <a class="nav-link text-light" href="#">Bibliothèque</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FORMATION</a>
+                <a class="nav-link text-light" href="#">FORMATION</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">CONTACT</a>
+                <a class="nav-link text-light">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -159,7 +162,7 @@
         <button type="button" class="btn btn-outline-secondary">All categories</button>
       </div>
       <h2 class="text-center mt-5">Suppliers of High-Quality Materials for Production</h2>
-      <div class=" card-group justify-content-around mt-5 ">
+      <div class="card-group justify-content-between mt-5 mx-auto pot ">
         <img src="image/liv1.jpeg" class="img-thumbnail" alt="...">
         <img src="image/liv2.jpeg" class="img-thumbnail" alt="...">
         <img src="image/liv3.jpeg" class="img-thumbnail" alt="...">
@@ -193,14 +196,301 @@
       <div class="div justify-content-center d-flex">
         <button type="button" class="btn btn-outline-secondary mt-5">All Projects</button>
       </div>
-      <div class="col">
-        <div class="row mt-5 bg-dark text-light">
-          <h1 class="text-center mt-5">Download Furniture Catalog</h1>
-          <div class="div justify-content-center d-flex">
-            <button type="button" class="btn btn-outline-secondary mt-5">Download </button>
+      <div class="">
+        <div class="mt-5 bg-dark text-light">
+          <h1 class="text-center">Download Furniture Catalog</h1>
+          <div class="div justify-content-center d-flex py-5">
+            <button type="button" class="btn btn-outline-secondary"><ion-icon name="download-outline"></ion-icon> Download </button>
           </div>
         </div>
       </div>
+      <div class="col-9 mx-auto mt-5 dot">
+        <div class="row"><img class="dot" src="image/koran.webp" alt=""></div>
+      </div>
+      <h1 class="text-center mt-5">About Us</h1>
+      <div class="col-5 mx-auto mt-5">
+        <p class="text-center">Furi is a leading furniture manufacturer known worldwide for its impeccable quality, exceptional customer service, and the most affordable prices. This is a family-owned, professional furniture company conveniently nestled in the heart of London. For more than 35 years, Furi has been building its own brand whilst also becoming the best licensing partner to such top lifestyle brands like Ralph Lauren, Perennials, and Kelly Wearstler.
+          We take pride in our dedicated employees committed to design and build the best-in-class furniture for wholesale dealers at reasonable prices.</p>
+      </div>
+      <div class="div justify-content-center d-flex">
+        <button type="button" class="btn btn-outline-secondary mt-5">Read more</button>
+      </div>
+      <h5 class="text-center mt-5 col-9 mx-auto text-secondary ">Furi offers the highest quality wholesale furniture for real estate developers, furniture stores, interior designers, and online retailers. We provide worldwide access to our furniture with such advantages as:</h5>
+      <div class=" card-group justify-content-around mt-5 ">
+        <img src="image/liv1.jpeg" class="img-thumbnail" alt="...">
+        <img src="image/liv2.jpeg" class="img-thumbnail" alt="...">
+        <img src="image/liv3.jpeg" class="img-thumbnail" alt="...">
+        <img src="image/liv4.jpeg" class="img-thumbnail" alt="...">
+      </div>
+      <div class=" card-group justify-content-center mt-5  ">
+        <img src="image/liv1.jpeg" class="img-thumbnail" alt="...">
+        <img src="image/liv2.jpeg" class="img-thumbnail" alt="...">
+        <img src="image/liv3.jpeg" class="img-thumbnail" alt="...">
+        <img src="image/liv4.jpeg" class="img-thumbnail" alt="...">
+      </div>
+      <div class=" mx-auto pt-5 mt-5 bac">
+        <div class="col-6 mx-auto">
+          <h4 class="text-center py-5">Subscribe to Our Newsletter 
+            and receive a 7% discount on the wholesale furniture order!</h4>
+        </div>
+      </div>
+      <section class="container text-center mt-5">
+        <h3>About Us</h3>
+        <p>Beautify is a leading furniture manufacturer known worldwide for its impeccable quality, exceptional
+            customer
+            service, and
+            the most affordable prices. This is a family-owned, professional furniture company conveniently nestled
+            in the heart of
+            London. For more than 35 years, Furi has been building its own brand whilst also becoming the best
+            licensing partner to
+            such top lifestyle brands like Ralph Lauren, Perennials, and Kelly Wearstler.</p>
+        <p>We take pride in our dedicated employees committed to design and build the best-in-class furniture for
+            wholesale dealers
+            at reasonable prices.</p>
+        <button type="button" class="btn btn-outline-dark btn-lg">Read more</button>
+    </section>
+    <!-- Our offer -->
+    <section class="container text-center mt-5 offer">
+        <h3>What We Offer</h3>
+        <p>Beautify offers the highest quality wholesale furniture for real estate developers, furniture stores,
+            interior designers,
+            and online retailers. We provide worldwide access to our furniture with such advantages as:</p>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-journal-minus"></i>
+                <p>Beautify Furniture Company Information</p>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-bezier2"></i>
+                <p>A wide range of mid-level to high-end furnishings</p>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-terminal-split"></i>
+                <p>No minimum warehouse order requirements</p>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-bar-chart-steps"></i>
+                <p>Constantly updated catalog of products we offer</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-headset"></i>
+                <p>Impeccable customer service and smooth ordering process</p>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-building-check"></i>
+                <p>Worldwide container programs mixed from Italy
+                    and Asia</p>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-calendar2-day"></i>
+                <p>Round the clock client support service</p>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <i class="bi bi-memory"></i>
+                <p>In-stock items ready for delivery</p>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe -->
+    <section class="container-fluid text-center bg-secondary mt-5">
+        <h4 class="text-light pt-3">Subscribe to Our Newsletter
+            and receive a 7% discount on the wholesale furniture order!</h4>
+        <div class="input-group container pb-3 pt-3">
+            <input type="text" class="form-control btn-lg" placeholder="Email" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">Subscribe</span>
+        </div>
+    </section>
+    <!-- Innovations -->
+    <section class="container text-center offer mt-5">
+        <h3>Passion for Innovations</h3>
+        <p>The extensive experience of our talented craftsmen helps them create products with more capabilities,
+            functionality, and
+            safety</p>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <img src="image/coran.jpg" class="img-thumbnail" alt="...">
+                <h4>Safety</h4>
+                <p>We can ensure our clients that all our furniture products are safe for the health of all their
+                    home inhabitants.</p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img src="image/coran1.jpg" class="img-thumbnail" alt="...">
+                <h4>Functionality</h4>
+                <p>Be it a strengthened support structure or hidden support legs for futons, our craftsmen strive to
+                    push the boundaries in
+                    design functionality.</p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <img src="image/cora.webp" class="img-thumbnail" alt="...">
+                <h4>Design</h4>
+                <p>Our market is overfilled with unique furniture designs. Our goal is to stand out from the crowd
+                    and continue to impress
+                    our clients.</p>
+            </div>
+        </div>
+    </section>
+    <!-- First carousels -->
+    <section class="container text-center mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <img src="image/livre1.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col-lg-6 col-sm-12 pt-3">
+                <h3 class="pb-3" id="border">What People Say</h3>
+                <div id="carouselExampleAutoplayingFade" class="carousel slide carousel-fade pt-5"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p>"Thank you very much for a great experience working with your
+                                furniture
+                                manufacturing company! We were extremely happy to find a retailer who really our
+                                interests and values. The furniture is excellent and of the highest quality!"</p>
+                            <h4>Kate Holmes</h4>
+                        </div>
+                        <div class="carousel-item">
+                            <p>"I was highly surprised with such a smooth ordering process, unlike anywhere else.
+                                The delivery of our Classic Shaker Dining Table was on time. Everybody is satisfied
+                                with the price and quality of our new table. Thanks a lot!"</p>
+                            <h4>Ann Robertson</h4>
+                        </div>
+                        <div class="carousel-item">
+                            <p>"We have been looking for a dresser which will fit our bedroom style for for nearly 2
+                                months. And finally, we have found it here, at Beautify. This Contemporary Craftsman
+                                3-Dresser perfectly meets our needs and completes the look of our room. Thank you!"
+                            </p>
+                            <h4>Jane Stone</h4>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleAutoplayingFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleAutoplayingFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest news -->
+    <section class="container mt-5 offer">
+        <h3 class="text-center mb-3">Latest News</h3>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <img src="image/liv2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>januuary 27, 2023</p>
+                        <h5 class="card-title">Outdoor Furniture Items for this Summer</h5>
+                        <p class="card-text">Explore this new collection which is introduced in the new finish,
+                            handmade of the finest wood that will add a touch of
+                            nature and at the same time luxury to your...</p>
+                        <a href="#" id="under">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <img src="image/livre2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>january 27, 2023</p>
+                        <h5 class="card-title">New Furniture Collection Release 2022/2023</h5>
+                        <p class="card-text">Explore this new collection which is introduced in the new finish,
+                            handmade of the finest wood that will add a touch of nature and at the same time luxury
+                            to your...</p>
+                        <a href="#" id="under">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <img src="image/livre3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>januuary 27, 2023</p>
+                        <h5 class="card-title">What's New? Leather Hickory Chair Sofas</h5>
+                        <p class="card-text">We are happy to offer our brand new product, Hickory chair sofa. It
+                            differs from other sofas by the material. We have
+                            used leather which looks more elegant, has a soft texture and...</p>
+                        <a href="#" id="under">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-outline-dark btn-lg mt-3">All news</button>
+    </section>
+    <!-- Form -->
+    <section class="container-fluid mt-5 bg-secondary pt-3 pb-3">
+        <div class="container d-grid gap-2 col-6 mx-auto bg-light w-50">
+            <h4 class="text-center text-dark pt-3">If you want to order our furniture or have any questions or
+                inquiries,
+                please contact us now.</h4>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="name" class="form-control" id="exampleFormControlInput1"
+                    placeholder="Enter your full name*">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="number" class="form-control" id="exampleFormControlInput1"
+                    placeholder="Enter your full number*">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="Enter your e-mail*">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Type your message"
+                    rows="5"></textarea>
+                <button type="button" class="btn btn-outline-dark mb-3 d-grid gap-2 col-6 mx-auto">Send</button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid mt-5 pt-3">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <h1>Beautify</h1>
+                <p>Beautify is a leading furniture manufacturer known worldwide for its impeccable quality,
+                    exceptional
+                    customer service, and
+                    fair prices.</p>
+                <p>Created with Bootstrap 5 <i class="bi bi-bootstrap"></i></p>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <a href="#">Catalog</a>
+                        <a href="#">Contacts</a>
+                        <a href="#">Testimonials</a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <a href="#">Blog</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <a href="#">About Us</a>
+                        <a href="#">Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 text-center">
+                <h3>Follows Us</h3>
+                <div class="ic">
+                  <ion-icon name="logo-facebook"></ion-icon><ion-icon name="logo-instagram"></ion-icon>
+                  <ion-icon name="logo-pinterest"></ion-icon><ion-icon name="logo-youtube"></ion-icon>
+                </div>
+                <p class="pt-5">All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
