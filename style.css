@@ -1,6 +1,6 @@
 .log{
-    width: 8%;
-    height: 80px;
+    max-width: 8%;
+    max-height: 80px;
     border-radius: 100%;
 }
 #nav{
